@@ -3,3 +3,14 @@
   text-decoration: none;
   margin-left: 5px;
 }
+.header__link::after{
+  display: inline-block;
+  position: relative;
+  content: '→';
+  bottom: 1px;
+  left: 4px;
+}
+.header__link:hover{
+  opacity: .5;
+  transition: .7s;
+}

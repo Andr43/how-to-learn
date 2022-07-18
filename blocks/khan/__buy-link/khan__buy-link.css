@@ -4,4 +4,16 @@
   margin: 0;
   font-size: 30px;
   line-height: 42px;
+  height: fit-content;
+}
+.khan__buy-link::after{
+  display: inline-block;
+  position: relative;
+  content: '→';
+  bottom: 1px;
+  left: 8px;
+}
+.khan__buy-link:hover{
+  opacity: .5;
+  transition: .7s;
 }

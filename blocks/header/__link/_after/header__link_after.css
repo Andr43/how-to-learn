@@ -1,7 +1,0 @@
-.header__link::after{
-  display: inline-block;
-  position: relative;
-  content: '→';
-  bottom: 1px;
-  left: 4px;
-}

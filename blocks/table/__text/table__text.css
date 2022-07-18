@@ -4,3 +4,6 @@
   line-height: 1.2;
   font-weight: 400;
 }
+.table__text:nth-child(n+3){
+  margin-top: 20px;
+}

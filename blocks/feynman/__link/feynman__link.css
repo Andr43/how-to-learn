@@ -7,3 +7,14 @@
   line-height: 51px;
   font-size: 36px;
 }
+.feynman__link::after{
+  display: inline-block;
+  position: relative;
+  content: '→';
+  bottom: 1px;
+  left: 10px;
+}
+.feynman__link:hover{
+  opacity: .5;
+  transition: .7s;
+}
