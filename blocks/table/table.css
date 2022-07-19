@@ -4,7 +4,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 0;
+  list-style: none;
   position: relative;
   z-index: 2;
-  list-style: none;
 }
